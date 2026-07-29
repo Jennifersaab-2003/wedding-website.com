@@ -1,0 +1,493 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Tony &amp; Rania | August 30, 2026</title>
+<script type="text/javascript" id="www-widgetapi-script" src="https://www.youtube.com/s/player/7a7969c2/www-widgetapi.vflset/www-widgetapi.js" async=""></script><script async="" id="www-widgetapi-script" src="https://www.youtube.com/s/player/7a7969c2/www-widgetapi.vflset/www-widgetapi.js" type="text/javascript"></script>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Montserrat:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-primary-fixed-variant": "#574500",
+                    "inverse-surface": "#30312e",
+                    "secondary-fixed-dim": "#ecbda4",
+                    "on-background": "#1b1c1a",
+                    "surface-dim": "#dbdad6",
+                    "tertiary": "#685d4a",
+                    "surface-tint": "#735000",
+                    "error": "#ba1a1a",
+                    "surface-container-highest": "#e4e2de",
+                    "surface-container-lowest": "#ffffff",
+                    "tertiary-fixed": "#f0e0c8",
+                    "on-secondary-fixed": "#2e1506",
+                    "secondary-fixed": "#ffdbca",
+                    "error-container": "#ffdad6",
+                    "on-secondary-container": "#795541",
+                    "on-secondary": "#ffffff",
+                    "surface-container-low": "#f5f3ef",
+                    "outline-variant": "#d0c5af",
+                    "surface-variant": "#e4e2de",
+                    "on-error-container": "#93000a",
+                    "inverse-on-surface": "#f2f0ed",
+                    "background": "#fbf9f5",
+                    "inverse-primary": "#e9c349",
+                    "outline": "#7f7663",
+                    "on-primary-fixed": "#241a00",
+                    "secondary": "#7a5642",
+                    "on-tertiary-container": "#4e4432",
+                    "on-primary-container": "#554300",
+                    "on-surface-variant": "#4d4635",
+                    "on-tertiary-fixed": "#221b0b",
+                    "on-surface": "#1b1c1a",
+                    "primary-fixed": "#ffe088",
+                    "on-tertiary": "#ffffff",
+                    "on-tertiary-fixed-variant": "#4f4533",
+                    "primary": "#735c00",
+                    "on-primary": "#ffffff",
+                    "secondary-container": "#fecdb4",
+                    "surface-container-high": "#eae8e4",
+                    "tertiary-container": "#bfb19a",
+                    "on-secondary-fixed-variant": "#603f2d",
+                    "surface": "#fbf9f5",
+                    "surface-bright": "#fbf9f5",
+                    "tertiary-fixed-dim": "#d3c5ad",
+                    "primary-container": "#d4af37",
+                    "surface-container": "#efeeea",
+                    "on-error": "#ffffff",
+                    "primary-fixed-dim": "#e9c349"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "section-gap": "5rem",
+                    "margin-mobile": "1.5rem",
+                    "stack-lg": "2rem",
+                    "stack-sm": "0.5rem",
+                    "container-max": "1140px",
+                    "stack-md": "1rem",
+                    "gutter": "2rem"
+            },
+            "fontFamily": {
+                    "headline-sm": ["Playfair Display"],
+                    "body-lg": ["Montserrat"],
+                    "display-lg-mobile": ["Playfair Display"],
+                    "display-lg": ["Playfair Display"],
+                    "headline-md": ["Playfair Display"],
+                    "body-md": ["Montserrat"],
+                    "label-md": ["Montserrat"]
+            },
+            "fontSize": {
+                    "headline-sm": ["24px", {"lineHeight": "32px", "fontWeight": "500"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "letterSpacing": "0.01em", "fontWeight": "400"}],
+                    "display-lg-mobile": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                    "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+                    "headline-md": ["32px", {"lineHeight": "40px", "fontWeight": "500"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.1em", "fontWeight": "600"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .fade-in { animation: fadeIn 1.5s ease-out; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        .hero-title { letter-spacing: -0.03em; }
+        .soft-shadow { box-shadow: 0 10px 40px rgba(122, 86, 66, 0.08); }
+        .divider-icon::before, .divider-icon::after {
+            content: ""; flex: 1; height: 1px; background: #d0c5af;
+        }
+        .music-playing .music-bar { animation: sound-wave 1s ease-in-out infinite; }
+        @keyframes sound-wave {
+            0%, 100% { height: 4px; }
+            50% { height: 12px; }
+        }
+        .invitation-page { display: none; }
+        .invitation-page.active { display: block; }
+        .text-glow { text-shadow: 0 0 10px rgba(255,255,255,0.5), 0 2px 4px rgba(0,0,0,0.3); }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md selection:bg-primary-container selection:text-on-primary-container">
+<!-- Music Controller -->
+<div class="fixed bottom-6 right-6 z-[60] flex items-center gap-3">
+<div class="bg-surface-container-high/90 backdrop-blur-md px-4 py-2 rounded-full border border-outline-variant/30 shadow-lg hidden md:flex items-center gap-2 transition-all duration-500 opacity-0 transform translate-x-4" id="music-status">
+<div class="flex items-end gap-0.5 h-3 w-4">
+<div class="music-bar w-1 bg-primary rounded-full transition-all"></div>
+<div class="music-bar w-1 bg-primary rounded-full transition-all" style="animation-delay: 0.2s"></div>
+<div class="music-bar w-1 bg-primary rounded-full transition-all" style="animation-delay: 0.4s"></div>
+</div>
+<span class="font-label-md text-[10px] uppercase tracking-widest text-on-surface-variant">Background Music</span>
+</div>
+<button aria-label="Toggle Music" class="w-12 h-12 flex items-center justify-center rounded-full bg-primary text-on-primary shadow-xl hover:scale-110 transition-all focus:outline-none group" id="music-toggle">
+<span class="material-symbols-outlined text-2xl" id="music-icon">volume_off</span>
+</button>
+</div>
+<!-- Invisible YouTube Player -->
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" class="fixed -left-full -top-full opacity-0 pointer-events-none" frameborder="0" height="0" id="youtube-player" src="https://www.youtube.com/embed/y70feYy4MU0?enablejsapi=1&amp;autoplay=0&amp;controls=0&amp;loop=1&amp;playlist=y70feYy4MU0" width="0"></iframe>
+<!-- Navigation (Shared) -->
+<nav class="fixed top-0 w-full z-50 bg-background/80 border-b border-outline-variant/30 backdrop-blur-md transition-all duration-300 ease-in-out">
+<div class="flex justify-between items-center px-margin-mobile md:px-gutter py-4 max-w-container-max mx-auto">
+<div class="font-headline-md text-headline-md italic text-primary">T&amp;R</div>
+<div class="hidden md:flex gap-stack-lg">
+<a class="font-body-md text-body-md text-primary border-b-2 border-primary pb-1" href="#">Our Story</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#events">Events</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#rsvp">RSVP</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#gallery">Gallery</a>
+</div>
+<a class="px-6 py-2 bg-secondary text-on-secondary font-label-md text-label-md uppercase tracking-widest transition-all hover:opacity-90" href="#rsvp">
+            RSVP Now
+        </a>
+</div>
+</nav>
+<div id="pages-container">
+<!-- Invitation screens will be injected here or toggled. -->
+<div class="pt-20" id="invitation-screen">
+<!-- Hero Section -->
+<section class="relative min-h-screen flex flex-col items-center justify-center text-center px-margin-mobile overflow-hidden fade-in">
+<div class="absolute inset-0 z-0">
+<div class="w-full h-full bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAvqu6zfQOv4A4CXKa9euPDD7h5AYcTFRYWWKCdhdNRXc1u1C9_qf92-mV7daxoiw737E_IC01-flyL8BdiSu_07VIYp6zDjamgAwnQOWnDzyRN3zneR0pQBbojkydT5V0mo0bUBQm-dj3Mnbj-yaBaxsL1u5M_l0N7gJtxUFPNS5KN_zyZZJ_GQxm9MCEyfNQ3_v1JTeUcrZHrhqFdXV_Qh9vBS0MlSE2_rBfr9yEW8ERjxsjoljt1nIWi4gPfIlt8MmstyO7BQzdF');"></div>
+<div class="absolute inset-0 bg-black/20"></div>
+</div>
+<div class="relative z-10 fade-in space-y-stack-md max-w-2xl p-12 rounded-xl border-white/30" style="text-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+<span class="font-label-md text-label-md uppercase tracking-[0.3em] text-white mb-2 block" id="hero-greeting">WELCOME TALA</span>
+<span class="font-label-md text-label-md uppercase tracking-[0.3em] text-white/80">Save the Date</span>
+<h1 class="font-display-lg text-display-lg md:text-[84px] md:leading-tight italic text-white hero-title">Tony &amp; Rania</h1>
+<p class="font-headline-sm text-headline-sm text-secondary italic">August 30, 2026</p>
+<div class="flex justify-center pt-stack-lg">
+<a class="px-10 py-4 bg-secondary text-on-secondary font-label-md text-label-md uppercase tracking-widest hover:bg-secondary/90 transition-all" href="#rsvp">
+                        Save the Date
+                    </a>
+</div>
+</div>
+<div class="absolute bottom-12 flex flex-col items-center animate-bounce text-white">
+<span class="material-symbols-outlined">expand_more</span>
+</div>
+</section>
+<!-- Divider -->
+<div class="flex items-center gap-4 max-w-sm mx-auto py-stack-lg opacity-40">
+<div class="h-[1px] flex-1 bg-outline"></div>
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">favorite</span>
+<div class="h-[1px] flex-1 bg-outline"></div>
+</div>
+<!-- Our Story -->
+<section class="relative py-section-gap overflow-hidden fade-in">
+<div class="absolute inset-0 z-0 opacity-10">
+<div class="w-full h-full bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB8-UibUSAYw5TQGxL8JBiei4kna0WTNYHXef4V7JfPeZzHGXPZwy1x3ygMn2F3KAk5NDJ_uX5-hfkdYH4dObQSkjDoZ96a2nCT1kYA4JDFYbDHVAlmVyz7j2v4DXA4oRn2ceTUWK2r5xyw_wDjnNIyJH7ZBSIxmpF5iEhverohM5F9q7BqrQ61zdLTgK4WqKmIK1YfAasBxGQNfykqMzI7Ht7KumM6Q1UWGrUfCzibHAnIxbcGgNIc6_fChVExeiNJPD3yx1x5ELiu');"></div>
+</div>
+<div class="relative z-10 max-w-container-max mx-auto px-margin-mobile text-center">
+<h2 class="font-headline-md text-headline-md text-on-surface mb-stack-sm">Our Journey</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto italic">
+                    From wandering cobblestone streets to champagne toasts at midnight, every moment has led us to this day. 
+                    We invite you to share in our next big adventure.
+                </p>
+<div class="mt-stack-lg max-w-lg mx-auto overflow-hidden rounded-xl soft-shadow border-8 border-white">
+<img alt="Tony &amp; Rania" class="w-full transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqMiXg3q608NFLfrNeq76BjaF9gdjZ381mww2wtY31r_eZJGsnUg1QEEAwjs1A6-yPsrtJdRTjYM-u39vOGCRn9KEESsv2oBRF6CEnh1suCf9leCEnrFKGjkcnqyvsrShs4TtxFia0oJYDMrRRyrPN6J3ztcgKaJXeJmIHeuw9UFqX9toihbF7dBbBKDbpu0S2W2qF77ArDArDVA2IEhYR2HrYmA7HmKJMHlIWEIpgbwsW3FTCmgQ3om4Z89j1hskMLZas3YeGHjhx">
+</div>
+</div>
+</section>
+<!-- Events -->
+<section class="py-section-gap px-margin-mobile max-w-container-max mx-auto fade-in" id="events">
+<div class="text-center mb-section-gap">
+<h2 class="font-headline-md text-headline-md text-on-surface mb-stack-sm">The Celebration</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl mx-auto">We are so excited to celebrate our love with our closest family and friends.</p>
+</div>
+<div class="grid md:grid-cols-2 gap-gutter">
+<div class="bg-surface-container-low p-stack-lg soft-shadow flex flex-col items-center text-center space-y-stack-md border border-outline-variant/20 group hover:border-primary/30 transition-all">
+<div class="w-16 h-16 flex items-center justify-center rounded-full bg-tertiary-fixed text-primary mb-2 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-3xl">church</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">The Ceremony</h3>
+<div class="space-y-1 font-body-md text-on-surface-variant">
+<p class="font-semibold text-secondary">6:00 PM</p>
+<p class="">Mar Mtanios Church</p>
+</div>
+<div class="w-full h-40 mt-4 overflow-hidden rounded">
+<img alt="Location" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGgeSLi9jSVeNe5fSaAEMTsmODCNUVNLpoSo4mslNfNxVDsfhgdtEF0tmeFF1ZRsdmHo8YhrTkE5LOB188324BTK2nz7Den6iWLBnwiZplirb5bu-edil1QFac1jmnpEdqB2FVS6mjDMjWu2ORIU0Cp9RCEVRrRPliw3IgBX1luCD93LWqtvyDrorM9wYhJyw3tvlcqKfE_j7wd1ndUesmRD-hs_JWEY5aj2b1raF0iPX2bFDh2bM0IJw8ZDXUmF1PKjEJFnGNCHwn">
+</div>
+</div>
+<div class="bg-surface-container-low p-stack-lg soft-shadow flex flex-col items-center text-center space-y-stack-md border border-outline-variant/20 group hover:border-primary/30 transition-all">
+<div class="w-16 h-16 flex items-center justify-center rounded-full bg-tertiary-fixed text-primary mb-2 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-3xl">dinner_dining</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">The Reception</h3>
+<div class="space-y-1 font-body-md text-on-surface-variant">
+<p class="font-semibold text-secondary">8:00 PM</p>
+<p class="">Siraj El Leil - Qlayaat Venue Olivia</p>
+</div>
+<div class="w-full h-40 mt-4 overflow-hidden rounded">
+<img alt="Reception" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBvEWgg2VXTZDnHCr2ypmQEehB_licmnukeSrYzLJmVy6dk40xE3My1FVIn2Ut9tlJkv_zaOgO82Qf52Calq9SarhLdxj8bcGHa5h1K3txhTPbgkWfCjm-hlPCZaUDb2icDkwVf8LccvjBTVmwEy38zzOfuBfp8OCytSmO2VAIKiU_wxn_RTmguvoBTllJnKe91IprKa3gN9zJB_YUh_uOO5gnnPr_pyFUkZNaIh6X1UJrXUDo4vAEi3XckJ6jn_3aIBQOsSd3qhHnA" style="object-position: center top;">
+</div>
+</div>
+</div>
+</section>
+<!-- RSVP Section -->
+<section class="py-section-gap bg-surface-container-low/50 relative overflow-hidden fade-in" id="rsvp">
+<div class="absolute right-0 top-0 w-1/3 h-full opacity-10 hidden lg:block">
+<img alt="" class="h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrLuvg0OE-3eKffmlTsjP7dpatRMm5ejkOjJSX1wua60xbaWWKNs2Z3VTysKmf8Th_oS-8kfHXGjdPz-xTuPIjO9BItjpMcgbyBkDBr9ch1WKg0WFl9Qg7FtIIN9u6_jKZJyo-8G5I8ThrAYbKZx6g8vUiF8jVCr90jrFa7ajC-GKxlRFjLSQ_UNb8eyuPVEIUIBPzjJctZTwQ3IqXhYgvZ2tSsdLzjqx4dmgvos2yno-QVS-cHOfUQ0YbE6EgVvwoIMsTtMH5zbi7">
+</div>
+<div class="max-w-2xl mx-auto px-margin-mobile relative z-10">
+<div class="bg-white p-stack-lg md:p-16 soft-shadow border border-outline-variant/30">
+<div class="text-center mb-stack-lg">
+<h2 class="font-display-lg text-display-lg italic text-primary">Kindly Respond</h2>
+<p class="font-label-md text-label-md uppercase tracking-widest text-on-surface-variant mt-2">By August 15th, 2026</p>
+<p class="font-body-md text-secondary italic mt-4" id="rsvp-invitation-id">Invitation ID: inv-002</p>
+</div>
+<form class="space-y-stack-lg">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-stack-lg">
+<div class="col-span-full space-y-4">
+<label class="font-label-md text-label-md text-on-surface-variant block mb-2 uppercase tracking-widest">Guest Attendance</label>
+<div class="space-y-3" id="guest-list-container"><div class="flex items-center justify-between py-2 border-b border-outline-variant/20">
+                <span class="font-body-md text-on-surface">Tala</span>
+                <div class="flex gap-4">
+                    <label class="flex items-center gap-2 cursor-pointer group">
+                        <input class="w-4 h-4 border-outline-variant text-primary focus:ring-primary" name="attendance_tala" type="radio" value="yes">
+                        <span class="font-label-md text-[12px] text-on-surface-variant group-hover:text-primary transition-colors">Attending</span>
+                    </label>
+                    <label class="flex items-center gap-2 cursor-pointer group">
+                        <input class="w-4 h-4 border-outline-variant text-primary focus:ring-primary" name="attendance_tala" type="radio" value="no">
+                        <span class="font-label-md text-[12px] text-on-surface-variant group-hover:text-primary transition-colors">Declining</span>
+                    </label>
+                </div>
+            </div></div>
+</div>
+</div>
+<div class="pt-4">
+<button class="w-full py-4 bg-primary text-on-primary font-label-md text-label-md uppercase tracking-[0.2em] hover:bg-primary/90 shadow-lg transition-all transform hover:-translate-y-1" type="submit">
+                                Send RSVP
+                            </button>
+</div>
+</form>
+</div>
+</div>
+</section>
+<!-- Gallery Section -->
+<section class="py-section-gap px-margin-mobile max-w-container-max mx-auto fade-in" id="gallery">
+<div class="text-center mb-section-gap">
+<h2 class="font-headline-md text-headline-md text-on-surface mb-stack-sm">Gallery</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl mx-auto italic">Captured Moments</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+<div class="space-y-4">
+<div class="overflow-hidden rounded-xl soft-shadow group">
+<img alt="Tony &amp; Rania" class="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMAKOVsWqYNNPD630VSQJB_ILWe9bLb7cvmGZxcQnAnoKCJxC1oAOY4vucjktJ1ShY-UqmWNrtVbHji00xG1a96xRQvg6JQLXHdyLnTiqZomU2z5Ro1T6VIUKddeImNXNTgJ0eYnAtgGmeqFCZ4sWtrEaegPX68q73DJ-vgjOLorRDIV0-0smP7Azh3ZpA2tzXzjPnWQwCbJbZeHV-XrB-n8zcPPBHw4_2DVv2XdGQJ4vOPZ5xtO9KXOUeGI00lPduY2q-J1l12wGo" style="object-position: center 20%;">
+</div>
+<div class="overflow-hidden rounded-xl soft-shadow group">
+<img alt="Tony &amp; Rania" class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwpltr0itb9aPo0xwBmNwjU32cFHkO3CgP5G2BAk184zwU1D-Ehne-RsPjoxbRgDp0Y19UYzYmAoob72lqOUQMM9OsLdJL9fO7MpwmkVREXZ5_02Ne13HtvNdb71NtXNOHcAAwPSaa6QBqDx_rcfddxhG_aOBDEqvShJEG7-XWoWlUwj3rV10eJK_hQmhjCwtIHy8pIXLzvp6eAcF7eMdEvUXITRsuAhxvV7n17ubgXiIeZXl_komYj4YimWDvofjomhl0J_GsXi9W" style="object-position: center 30%;">
+</div>
+</div>
+<div class="space-y-4 lg:mt-8">
+<div class="overflow-hidden rounded-xl soft-shadow group">
+<img alt="Tony &amp; Rania" class="w-full h-[500px] object-cover group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCiA0vUhWxnL5RUKbiCJGoe8MiCc7ynWnFIZIPfAQVoi3zPUBLzYbGlL0e-YbaBXnbdp0ZElnbsKxUApZgWiBNZ0Rv-3sjQbhHLkIY31AeRFURPLivLXpFPzh9UaGWtrFahc1b1WcFCTRgEpd1xIRuEIWNULVcRTMdZwvZxv_gA_qymREi49AMerGtYn-10n5LS0xLVU7tQQblt4ybKBtJmauI_2eHaHd6ZTkLQX2DaTg95Yh0K2QYruy3CVcJRpdioU056x9gU0ct0" style="object-position: center 25%;">
+</div>
+</div>
+<div class="space-y-4 hidden lg:block">
+<div class="overflow-hidden rounded-xl soft-shadow group">
+<img alt="Tony &amp; Rania" class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDNVBYB2xFwlLl_i8SrU_3r4lvxp1vymdYtL6X-eVwlCQGY8fXBnjmddSb4U5jvC3MFnaTuvd8gzgFP9v5i_2u-nBCTooSQgiFdOr3cVsfPIxonM7y4T5R3cmuGq6J1DhZWUorywscObPo6puXlDIfNTSoKJ9JWfBo719tsmKntANVs2sOvm-R0u27jTiIVwZrDTpq2AaQYH39LJzOEwy0SAzYa8PTfg1Ar8irbYvl1CXWpv4LbIZFeXsYfwYWUR0bOt614bUMkTVPP" style="object-position: center 20%;">
+</div>
+<div class="overflow-hidden rounded-xl soft-shadow group">
+<img alt="Tony &amp; Rania" class="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQ0d9_ojvqWojUeDT8yySkBTOv6zHUulz16at36ECS8d5RUWJ7wdDte1sjDe3gHldMxZlM6pkGMk6B5rT90FBwOz_P1yTfelc5CQ564fif6bRuYQnVqQfJd4Nwl-pVdeGqtu6Ac3ixZeSELXrwmgh-C9IKN-t6InZ6jrGd2kdVArM-x4FtfJCQLQ2uJcXT3Yb6oca5PWOdlZuu2zq_MWeEuNkEzmYh-KmYGV-W5MmTLVmSb2tgWT6fosS0jy-25lhzMQAx271ii1WN" style="object-position: center 20%;">
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+<!-- Footer Section -->
+<footer class="relative min-h-[60vh] flex flex-col items-center justify-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img alt="Tony &amp; Rania" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVlo7g04MNQtf91S8rItwqvn1wgX-pBJffEnFATtVSYu-Sr87UNjvUz3SW5K2w2j4yz0fx7h35oAGAacQks0eTgrgSZpRFual9dy3UdFseRbXrolcmxlEQ545XshI-AOaWJZSVW4FWMcSIfBFLxK7SpUcBO1DqLzqmXvQmDpKtxOpB5komHCtt9suaXWT3hmjSLVPcVKv7t89dH0szPIx6Xqub3AdBPFfsgGBU6i4vruG9p_nPp-TQMLWOBpke36NR_Wj9U_DEqhle">
+<div class="absolute inset-0 bg-black/40"></div>
+</div>
+<div class="relative z-10 flex flex-col items-center text-center p-margin-mobile">
+<div class="mb-4">
+<img alt="Whish Money" class="w-24 md:w-32 mx-auto rounded-xl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnzMTB765Eupdye3zZW9we967B0QVda5clXWhTy91-F6iEyw4GIu5a2tp5ZODMJHj0CUkM1QWeGtmVQ0mGkpzDKs-9eSb-0PCbXJlaRHMtFTFk9ZYl1fbPAqWQ6zRfWBTE68pl-5YcYhrACMvkgJMGp8OGaXSKTXYDQXdXErYcpFahNSmvyRthVsUHaK_mhsPtwbFQLRWx_hFXcFglGLwPz3RI7uaQBbWDabE6XPHIYNjVRha-CcaSrwP-t5xeX0kUbU0Dng4aOyM-">
+</div>
+<p class="font-headline-sm text-2xl md:text-3xl italic text-white mb-2 text-glow" dir="rtl">لمن يرغب، لائحة الهدايا</p>
+<p class="font-display-lg text-white text-display-lg-mobile md:text-display-lg tracking-widest text-glow">+961 76 719 976</p>
+<div class="mt-stack-lg flex flex-col items-center gap-4">
+<div class="font-headline-sm text-headline-sm text-white italic text-glow">Tony &amp; Rania</div>
+<div class="font-label-md text-label-md text-white/80 uppercase tracking-widest">August 30, 2026</div>
+<div class="mt-4 flex gap-6 text-white/60">
+<span class="material-symbols-outlined cursor-pointer hover:text-white transition-all">share</span>
+<span class="material-symbols-outlined cursor-pointer hover:text-white transition-all">mail</span>
+<span class="material-symbols-outlined cursor-pointer hover:text-white transition-all">calendar_today</span>
+<a class="text-[10px] uppercase tracking-widest opacity-40 hover:opacity-100 transition-opacity cursor-pointer self-center" href="#admin-dashboard" onclick="document.getElementById('admin-dashboard').classList.toggle('hidden'); return false;">Admin</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- Admin Dashboard (Hidden by default) -->
+<section class="hidden py-section-gap bg-surface-container-highest/30 border-t border-outline-variant/20" id="admin-dashboard">
+<div class="max-w-container-max mx-auto px-margin-mobile">
+<div class="flex items-center gap-4 mb-stack-lg">
+<h2 class="font-headline-md text-headline-md text-primary">Admin Dashboard</h2>
+<div class="h-[1px] flex-1 bg-outline-variant/30"></div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-gutter mb-stack-lg">
+<div class="bg-white p-6 rounded-xl soft-shadow border border-outline-variant/20">
+<p class="font-label-md text-label-md uppercase tracking-widest text-on-surface-variant">Total Invited</p>
+<p class="text-3xl font-display-lg text-primary mt-2">80</p>
+</div>
+<div class="bg-white p-6 rounded-xl soft-shadow border border-outline-variant/20">
+<p class="font-label-md text-label-md uppercase tracking-widest text-on-surface-variant">Confirmed (Yes)</p>
+<p class="text-3xl font-display-lg text-secondary mt-2">0</p>
+</div>
+<div class="bg-white p-6 rounded-xl soft-shadow border border-outline-variant/20">
+<p class="font-label-md text-label-md uppercase tracking-widest text-on-surface-variant">Pending</p>
+<p class="text-3xl font-display-lg text-outline mt-2">80</p>
+</div>
+</div>
+<!-- Switcher for demonstration -->
+<div class="bg-white rounded-xl soft-shadow border border-outline-variant/20 p-6 mb-stack-lg">
+<h3 class="font-label-md uppercase tracking-widest mb-4">View Invitation Version</h3>
+<div class="flex flex-wrap gap-2">
+<button class="px-4 py-2 border border-primary text-primary hover:bg-primary hover:text-white transition-colors text-xs" onclick="updateInvitation('inv-002')">inv-002 (Tala)</button>
+<button class="px-4 py-2 border border-primary text-primary hover:bg-primary hover:text-white transition-colors text-xs" onclick="updateInvitation('inv-003')">inv-003 (Joy)</button>
+<button class="px-4 py-2 border border-primary text-primary hover:bg-primary hover:text-white transition-colors text-xs" onclick="updateInvitation('inv-004')">inv-004 (Charbel...)</button>
+<button class="px-4 py-2 border border-primary text-primary hover:bg-primary hover:text-white transition-colors text-xs" onclick="updateInvitation('inv-005')">inv-005 (Koko)</button>
+<button class="px-4 py-2 border border-primary text-primary hover:bg-primary hover:text-white transition-colors text-xs" onclick="updateInvitation('inv-006')">inv-006 (Issa...)</button>
+</div>
+</div>
+</div>
+</section>
+<!-- YouTube IFrame API -->
+<script src="https://www.youtube.com/iframe_api"></script>
+<script>
+    const invitations = {
+        "inv-002": ["Tala"],
+        "inv-003": ["Joy"],
+        "inv-004": ["Charbel", "Sarine", "Elio", "Jude"],
+        "inv-005": ["Koko"],
+        "inv-006": ["Issa", "Nathalie", "Christopher", "Oliver"]
+    };
+
+    function updateInvitation(invId) {
+        const guestNames = invitations[invId];
+        if (!guestNames) return;
+
+        const greetingElement = document.getElementById('hero-greeting');
+        let greetingText = "";
+        if (guestNames.length === 1) {
+            greetingText = `Welcome ${guestNames[0]}'s family`;
+        } else if (guestNames.length <= 4) {
+            const names = [...guestNames];
+            const last = names.pop();
+            greetingText = `Welcome ${names.join(", ")} and ${last}`;
+        } else {
+            greetingText = `Welcome ${guestNames[0]} & Family`;
+        }
+        greetingElement.textContent = greetingText;
+
+        document.getElementById('rsvp-invitation-id').textContent = `Invitation ID: ${invId}`;
+
+        const listContainer = document.getElementById('guest-list-container');
+        listContainer.innerHTML = "";
+        
+        guestNames.forEach(name => {
+            const row = document.createElement('div');
+            row.className = "flex items-center justify-between py-2 border-b border-outline-variant/20";
+            row.innerHTML = `
+                <span class="font-body-md text-on-surface">${name}</span>
+                <div class="flex gap-4">
+                    <label class="flex items-center gap-2 cursor-pointer group">
+                        <input class="w-4 h-4 border-outline-variant text-primary focus:ring-primary" name="attendance_${name.toLowerCase()}" type="radio" value="yes">
+                        <span class="font-label-md text-[12px] text-on-surface-variant group-hover:text-primary transition-colors">Attending</span>
+                    </label>
+                    <label class="flex items-center gap-2 cursor-pointer group">
+                        <input class="w-4 h-4 border-outline-variant text-primary focus:ring-primary" name="attendance_${name.toLowerCase()}" type="radio" value="no">
+                        <span class="font-label-md text-[12px] text-on-surface-variant group-hover:text-primary transition-colors">Declining</span>
+                    </label>
+                </div>
+            `;
+            listContainer.appendChild(row);
+        });
+
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+        updateInvitation('inv-002');
+    });
+
+    let player;
+    const musicToggle = document.getElementById('music-toggle');
+    const musicIcon = document.getElementById('music-icon');
+    const musicStatus = document.getElementById('music-status');
+    let isPlaying = false;
+
+    function onYouTubeIframeAPIReady() {
+        player = new YT.Player('youtube-player', {
+            events: {
+                'onReady': onPlayerReady
+            }
+        });
+    }
+
+    function onPlayerReady(event) {
+        musicToggle.addEventListener('click', () => {
+            if (!isPlaying) {
+                player.playVideo();
+                musicIcon.textContent = 'volume_up';
+                document.body.classList.add('music-playing');
+                musicStatus.classList.remove('hidden', 'opacity-0', 'translate-x-4');
+                isPlaying = true;
+            } else {
+                player.pauseVideo();
+                musicIcon.textContent = 'volume_off';
+                document.body.classList.remove('music-playing');
+                musicStatus.classList.add('opacity-0', 'translate-x-4');
+                setTimeout(() => { if(!isPlaying) musicStatus.classList.add('hidden') }, 500);
+                isPlaying = false;
+            }
+        });
+    }
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('fade-in');
+            }
+        });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('section').forEach(section => {
+        observer.observe(section);
+    });
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href');
+            if (targetId === '#') return;
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+                targetElement.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    });
+
+    window.addEventListener('scroll', () => {
+        const nav = document.querySelector('nav');
+        if (window.scrollY > 50) {
+            nav.classList.add('py-2');
+            nav.classList.remove('py-4');
+        } else {
+            nav.classList.add('py-4');
+            nav.classList.remove('py-2');
+        }
+    });
+</script>
+
+
+</body></html>
